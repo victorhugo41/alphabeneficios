@@ -1,0 +1,584 @@
+html,body,p,ul,h1,h2,h3{
+    padding: 0 ;
+    margin: 0 ;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+html,body{
+    height: 100%;
+    font-family: Arial, Tahoma, Sans-serif; 
+}
+@font-face {
+     font-family: roboto;
+     src: url('fonts/Roboto-Ligth.otf');
+}
+
+#containner-menu{
+    width: 100% ;
+    height: 50px;
+    background-color: rgba(242, 242, 242, 0.78);
+    position: fixed;
+    z-index: 1000 ;
+    
+}
+#containner-menu #base-menu-logo{
+    width: 1200px;
+}
+
+#containner-menu #logo-corretora {
+    float: left ;
+    height: 100% ;
+    width: 400px ;
+}
+#containner-menu #logo-corretora #base-imagem-logo {
+    width: 50px;
+    height: 50px ;
+    float: left;
+    margin-left: 200px;
+    
+}
+#containner-menu #logo-corretora #base-imagem-logo img{
+    width: 50px;
+    height: 50px ;
+    
+}
+
+
+#containner-menu #box-menu{
+    float: left;
+    height: 100%;
+    width: 800px;
+    
+}
+#containner-menu #box-menu ul {
+    list-style: none ;
+    margin-left: 200px;
+    
+    
+}
+#containner-menu #box-menu li {
+    width: 60px;
+    margin-right: 20px;
+    display: inline;
+    height: 50px;
+    line-height: 50px;
+}
+#containner-menu #box-menu li a{
+    text-decoration: none ;
+    color: #2E2E2E ;
+    width: 100px;
+    height: 50px;
+}
+#containner-menu #box-menu  #area-corretor{
+    width: 120px;
+    height: 10px;
+}
+#containner-menu #box-menu li:hover  ul  {
+    display: block ;
+    
+}
+#containner-menu #box-menu  #area-corretor:hover #sub-lista {
+    display: inline-block;
+}
+#containner-menu #box-menu li ul li {
+    display: block;
+    background-color: rgba(226, 226, 226, 0.59) ;
+    text-align: center;
+    height: 40px ;
+    line-height: 40px;
+    color:#fff ;
+    width: 80px;
+}
+#containner-menu #box-menu  li ul  {
+    position: absolute;
+    display: none;
+    margin-left: 430px;
+    margin-top: -20px;
+}
+#escondida{
+    height: 50px;
+    width: auto;
+    
+}
+#containner-menu #box-menu li a:hover {
+    border-bottom: solid 2px #000 ;
+}
+/*************TELA DE LOGIN*****************/
+#container_login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height:auto; 
+    min-height:100%;
+    background-color: #001f5f;
+}
+#container_img_login{
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 130px;
+    padding-top: 100px;
+}
+#container_form_login{
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 22px;
+}
+#container_form_login .input{
+    background-color: inherit;
+    float: right;
+    width: 280px;
+    height: 30px;
+    padding: 2px;
+    margin-left: 20px;
+    font-size: 1.2em;
+    border: 0;
+    border-bottom: 1px solid #535353;
+    outline: none;
+    border-radius: 2px 2px 0px 0px;
+    transition: border-bottom .2s;
+    color: #d6d6d6;
+
+}
+.input:focus{
+    border-bottom: 1px solid red;
+
+}
+.lbl_login{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    color: azure;
+    height: 40px;
+    width: 450px;
+    line-height: 40px;
+}
+#btn_login{
+    float: right;
+    width: auto ;
+    height: 30px;
+    border-radius: 2px;
+}
+#alert{
+    width: 100% ;
+    height: auto;
+    text-align: center;
+    font-size: 22px ;
+    color: antiquewhite;
+    font-family: monospace;
+}
+/*************TELA DE LOGIN*****************/
+/**********RODAPE***********/
+.rodape {
+    width: 100%;
+    height: 150px;
+    background-color: #2E2E2E;
+    color: #fff ;
+}
+.rodape #conteudo-rodape{
+    width: 900px ;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+/***************************/
+.main{
+    width: 100% ;
+    height: auto ;
+    background-color: #F2F2F2;
+}
+.main #base-slider {
+    width: 100% ;
+    height: 430px; 
+}
+.main #base-slider ul li img{
+    width: 100% ;
+    height: 430px;
+}
+#slider{
+    width:100%;
+	height:100%;
+    margin:0 auto;
+	overflow:hidden;
+}
+.main #conteudo-home {
+    height: auto;
+    width: 100% ;
+}
+.main #conteudo-home #box-bem-vindo{
+    height: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center ;
+    background-color: #001f5f ;
+    color: #fff;
+}
+.main #conteudo-home #box-bem-vindo #titulo{
+    width: 100% ;
+    text-align: center ;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main #conteudo-home #box-bem-vindo #texto{
+    margin-top: 20px;
+    width: 600px; 
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: justify;
+    font-size: 20px ;
+    
+    
+}
+.main #conteudo-home #box-bem-vindo #base-img {
+    width: 400px ;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.main #conteudo-home #box-bem-vindo #base-img img{
+    width: 400px ;
+    height: 350px;
+    
+}
+/***************pagina de contato****************/
+#pagina-contato{
+    
+}
+#pagina-contato #dados-empresa {
+    height: 150px;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-top: 60px;
+    color: #213B60 ;
+   
+}
+#pagina-contato #dados-empresa #titulo-dados{
+    width: 100% ;
+    text-align: center;
+    font-size: 24px;
+}
+#pagina-contato #dados-empresa #endereco-telefone{
+    width: 600px;
+    height: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+    
+}
+
+ #dados-empresa #contato {
+    width: 600px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ #containner-cadastro  {
+    width: 600px;
+    height: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-bottom: 100px;
+    
+    
+}
+ #titulo-cadastro{
+    width: 100% ;
+    height: auto;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    padding-bottom:  20px;
+    
+}
+ #containner-cadastro .lbl {
+    text-align: center;
+    height: 30px ;
+    width: 100%;
+    line-height: 20px;
+}
+ #containner-cadastro .input input{
+    width: 450px;
+    height: 25px;
+    font-size: 1.2em;
+    border: 0;
+    border-bottom: 1px solid #535353;
+    outline: none;
+    border-radius: 2px 2px 0px 0px;
+    transition: border-bottom .2s;
+    color: #2E2E2E;
+    background-color: inherit;
+    
+    
+}
+ #containner-cadastro .input{
+    width: 450px;
+    height: 25px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-bottom: 20px;
+    
+}
+ #containner-cadastro #btn-salvar {
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+} #containner-cadastro #btn-salvar input{
+    width: 90px;
+    height: 40px;
+    border: 0 ;
+    background-color: #2E2E2E;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+    
+ #base-fale-conosco #containner-cadastro .lbl {
+    text-align: center;
+    height: 30px ;
+    width: 100%;
+    line-height: 20px;
+}
+ #base-fale-conosco #containner-cadastro .input input{
+    width: 450px;
+    height: 25px;
+    font-size: 1.2em;
+    border: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+    border-radius: 2px 2px 0px 0px;
+    transition: border-bottom .2s;
+    color: #2E2E2E;
+    background-color: inherit;
+    
+    
+}
+ #base-fale-conosco #containner-cadastro .input{
+    width: 450px;
+    height: 25px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-bottom: 20px;
+    
+}
+/********/
+/*************Pagina Sobre a empresa ****************/
+.main #box-sobre-empresa {
+    width: 100% ;
+    height: auto;
+    color: #535353 ;
+}
+
+.main  .conteudo-sobre{
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto ;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+}
+#banner-empresa {
+    width: 100% ;
+    height: 530px;
+    
+}
+#banner-empresa img {
+    width: 100% ;
+    height: 100% ;
+    
+}
+.main  h1{
+    text-align: center ;
+    font-size: 24px;
+    padding-top: 20px;
+    
+}
+
+.main  h2 {
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    
+}
+
+.main  h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    width: 80% ;
+    margin-right: auto ;
+    margin-left: auto ;
+    
+}
+
+/*************Pagina Sobre a empresa ****************/
+#conteudo-home #box-sobre-a-empresa{
+    width: 100% ;
+    height: auto;
+    padding-bottom: 20px;
+    color: #535353;
+}
+
+#base-fale-conosco {
+    width: 100% ;
+    height: auto;
+    background-color: #fff ;
+    color: #313131 ;
+}
+
+#base-containner-cadastro {
+    width: 100% ;
+    height: auto;
+    color: #535353 ;
+}
+
+#space {
+    height: 60px;
+}
+/***************Pagina de publicações*****/
+#containner-postagens{
+    height: 1200px;
+    
+}
+
+
+#containner-postagens #cabecalho-postagens {
+    width: 900px;
+    height : auto;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 10px;
+    
+    
+}
+#containner-postagens #cabecalho-postagens #box-menu-postagens{
+    width: auto; 
+    height: 30px;
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: #2E2E2E ;
+    color: #fbfdff ;
+    border-radius: 20px;
+    line-height: 20px;
+    padding-left: 30px;
+    
+}
+#containner-postagens #cabecalho-postagens #box-menu-postagens ul{
+    list-style: none ;
+    
+}
+#containner-postagens #cabecalho-postagens #box-menu-postagens .item-menu-categoria{
+    float: left ;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 30px;
+    display: inline;
+    padding-left: 10px;
+    
+}
+#containner-postagens #cabecalho-postagens #box-menu-postagens .item-menu-categoria:hover{
+    background-color: #7c7c7c ;
+}
+.item-menu-categoria ul {
+    position: absolute;
+    display: none ;
+    color: #1d1a1a ;
+}
+.item-menu-categoria ul li {
+    min-width:  150px ;
+    width: auto ;
+    background-color: rgba(226, 226, 226, 0.69) ;
+    border-bottom: solid 1px ;
+    border-left:solid 1px ;
+    border-right: solid 1px ;
+    padding-left: 10px;
+}
+.item-menu-categoria:hover ul, .item-menu-categoria li.over ul{
+    display:block;
+}
+#containner-postagens #base-postagens-social {
+    width: 1200px;
+    height: auto;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+#box-pesquisar{
+    height: 30px;
+    line-height: 30px;
+}
+
+#box-pesquisar .text-input {
+    float: left ;
+    margin-top: 5px;
+    border-radius: 9px;
+}
+#box-pesquisar .img-pesquisar-publicacao{
+    width: 20px; 
+    height: 20px;
+    float: left ;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#containner-postagens #base-postagens-social #postagens {
+    width: 860px ;
+    height: 1150px; 
+    float: left ;
+    background-color: #e2e2e2 ;
+}
+
+#containner-postagens #base-postagens-social #social {
+    width: 340px;
+    height: 200px;
+    float: left ;
+}
+
+
+
+/*pagina de politica de privacidade*/
+#box-politica-privacidade {
+    height: 600px; ;
+    width: 600px;
+    padding-top: 20px;
+    margin-left: auto ;
+    margin-right: auto ;
+    text-align: justify ;
+    color: #535353 ;
+}
+
+#titulo-politica-privacidade {
+    width: 100% ;
+    height: 50px;
+    text-align: center ;
+    
+}
+#conteudo-rodape a {
+    color: #fff ;
+}
+#conteudo-rodape a:hover {
+    color: aqua ;
+    
+}
+/**********************************/
+/************ADM FALE CONOSCO******/
+
+
+
+
+
